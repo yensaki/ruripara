@@ -1,5 +1,7 @@
 require "ruripara/version"
+require "yaml"
+require "ruripara/girl"
 
-module Ruripara
+module Pripara
   # Your code goes here...
 end
