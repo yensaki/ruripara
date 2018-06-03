@@ -1,6 +1,6 @@
 module Pripara
-  class Girl < Base
-    ATTR_KEYS = %i(slug name cast_name).freeze
+  class Song < Base
+    ATTR_KEYS = %i(title singer writer composer arranger).freeze
 
     ATTR_KEYS.each do |key|
       define_method key do
@@ -10,7 +10,7 @@ module Pripara
 
     class << self
       def config_file_name
-        'girls.yml'
+        'songs.yml'
       end
 
       private
