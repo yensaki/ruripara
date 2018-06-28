@@ -1,11 +1,11 @@
 module Pripara
   class Base
     def initialize(attributes)
-      @attributes = attributes
+      @attributes = attributes.map { |k, v| [k.to_sym, v] }.to_h
     end
 
     def match?(attrs)
-      attrs.all? { |key, value| @attributes[key.to_s] == value }
+      attrs.all? { |key, value| @attributes[key.to_sym] == value }
     end
 
     class << self
