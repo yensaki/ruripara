@@ -2,6 +2,10 @@
   slug: laala
   name: 真中らぁら
   cast_name: 茜屋日海夏
+#  birthday: 11/20
+#  blood_type: O
+#  favorite_brand: Twinkle Ribbon
+#  charm: ラブリー
 - id: 2
   slug: mirei
   name: 南みれぃ
@@ -22,3 +26,63 @@
   slug: reona
   name: レオナ・ウェスト
   cast_name: 若井友希
+- id: 7
+  slug: falulu
+  name: ファルル
+  cast_name: 赤﨑千夏
+- id: 8
+  slug: cosmo
+  name: 北条コスモ
+  cast_name: 山本希望
+- id: 9
+  slug: aroma
+  name: 黒須あろま
+  cast_name: 牧野由依
+- id: 10
+  slug: mikan
+  name: 白玉みかん
+  cast_name: 渡部優衣
+- id: 11
+  slug: fuwari
+  name: 緑風ふわり
+  cast_name: 佐藤あずさ
+- id: 12
+  slug: hibiki
+  name: 紫京院ひびき
+  cast_name: 斎賀みつき
+- id: 13
+  slug: galulu
+  name: ガァルル
+  cast_name: 真田アサミ
+- id: 14
+  slug: non
+  name: 真中のん
+  cast_name: 田中美海
+- id: 15
+  slug: chiri
+  name: 月川ちり
+  cast_name: 大森日雅
+- id: 16
+  slug: pepper
+  name: 太陽ペッパー
+  cast_name: 山下七海
+- id: 17
+  slug: ajimi
+  name: 黄木あじみ
+  cast_name: 上田麗奈
+- id: 18
+  slug: chanko
+  name: 鍋島ちゃん子
+  cast_name: 赤﨑千夏
+- id: 19
+  slug: jury
+  name: ジュリィ
+  cast_name: 上田麗奈
+- id: 20
+  slug: janis
+  name: ジャニス
+  cast_name: 豊崎愛生
+- id: 21
+  slug: meganee
+  name: 赤井めが姉ぇ
+  cast_name: 伊藤かな恵
