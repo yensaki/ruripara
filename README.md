@@ -23,7 +23,7 @@ Or install it yourself as:
 
 ```ruby
 require 'ruripara'
-girl = Pripara::Girl.find_by(name: '南みれぃ')
+girl = Pripara::Idol.find_by(name: '南みれぃ')
 girl.cast_name
 # => '芹澤優' 
 ```
