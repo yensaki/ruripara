@@ -1,5 +1,5 @@
 module Pripara
-  class Girl < Base
+  class Idol < Base
     ATTR_KEYS = %i(slug name cast_name).freeze
 
     ATTR_KEYS.each do |key|
@@ -10,7 +10,7 @@ module Pripara
 
     class << self
       def config_file_name
-        'girls.yml'
+        'idols.yml'
       end
 
       private
