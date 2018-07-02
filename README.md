@@ -1,5 +1,9 @@
 # Ruripara
 
+[![Gem Version](https://badge.fury.io/rb/ruripara.svg)](https://badge.fury.io/rb/ruripara)
+
+[![CircleCI](https://circleci.com/gh/yensaki/ruripara/tree/master.svg?style=svg)](https://circleci.com/gh/yensaki/ruripara/tree/master)
+
 This gem will be all about Pripara.  
 You can get Pripara data, easily.
 
