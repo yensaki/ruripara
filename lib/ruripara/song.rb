@@ -10,7 +10,7 @@ module Pripara
 
     class << self
       def config_file_name
-        'songs.yml'
+        "songs.yml"
       end
 
       private

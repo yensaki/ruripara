@@ -22,7 +22,7 @@ module Pripara
 
       def config
         return @config if @config
-        config_file = File.join(File.dirname(__FILE__), '../../config/', config_file_name)
+        config_file = File.join(File.dirname(__FILE__), "../../config/", config_file_name)
         @config = YAML.load_file(config_file)
       end
 
