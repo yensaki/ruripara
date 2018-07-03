@@ -9,3 +9,8 @@ Metrics/LineLength:
 
 Layout/SpaceInsideBlockBraces:
   Enabled: false
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%i': ()
+    '%q': {}

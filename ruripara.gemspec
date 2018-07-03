@@ -1,5 +1,4 @@
-
-lib = File.expand_path("../lib", __FILE__)
+lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "ruripara/version"
 
@@ -9,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["yensaki"]
   spec.email         = ["mov.an.double@gmail.com"]
 
-  spec.summary       = %q{All about Pripara}
-  spec.description   = %q{All about Pripara}
+  spec.summary       = "All about Pripara"
+  spec.description   = "All about Pripara"
   spec.homepage      = "https://github.com/yensaki/ruripara"
   spec.license       = "MIT"
 
@@ -24,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "rubocop"
+  spec.add_development_dependency "rubocop", "0.57.2"
 end
