@@ -1,6 +1,6 @@
 module Pripara
-  class Idol < Base
-    ATTR_KEYS = %i(slug name cast_name charm_id).freeze
+  class Charm < Base
+    ATTR_KEYS = %i(id slug name).freeze
 
     ATTR_KEYS.each do |key|
       define_method key do
@@ -8,13 +8,9 @@ module Pripara
       end
     end
 
-    def charm
-      @charm ||= Pripara::Charm.find_by(id: charm_id) if charm_id
-    end
-
     class << self
       def config_file_name
-        "idols.yml"
+        "charms.yml"
       end
 
       private

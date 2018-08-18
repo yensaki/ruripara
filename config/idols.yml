@@ -2,119 +2,147 @@
   slug: laala
   name: 真中らぁら
   cast_name: 茜屋日海夏
+  charm_id: 1
 #  birthday: 11/20
 #  blood_type: O
 #  favorite_brand: Twinkle Ribbon
-#  charm: ラブリー
 - id: 2
   slug: mirei
   name: 南みれぃ
   cast_name: 芹澤優
+  charm_id: 2
 - id: 3
   slug: sophie
   name: 北条そふぃ
   cast_name: 久保田未夢
+  charm_id: 3
 - id: 4
   slug: sion
   name: 東堂シオン
   cast_name: 山北早紀
+  charm_id: 3
 - id: 5
   slug: dorothy
   name: ドロシー・ウェスト
   cast_name: 澁谷梓希
+  charm_id: 2
 - id: 6
   slug: reona
   name: レオナ・ウェスト
   cast_name: 若井友希
+  charm_id: 2
 - id: 7
   slug: falulu
   name: ファルル
   cast_name: 赤﨑千夏
+  charm_id: 1
 - id: 8
   slug: cosmo
   name: 北条コスモ
   cast_name: 山本希望
+  charm_id: 3
 - id: 9
   slug: aroma
   name: 黒須あろま
   cast_name: 牧野由依
+  charm_id: 3
 - id: 10
   slug: mikan
   name: 白玉みかん
   cast_name: 渡部優衣
+  charm_id: 1
 - id: 11
   slug: fuwari
   name: 緑風ふわり
   cast_name: 佐藤あずさ
+  charm_id: 4
 - id: 12
   slug: hibiki
   name: 紫京院ひびき
   cast_name: 斎賀みつき
+  charm_id: 5
 - id: 13
   slug: galulu
   name: ガァルル
   cast_name: 真田アサミ
+  charm_id: 1
 - id: 14
   slug: non
   name: 真中のん
   cast_name: 田中美海
+  charm_id: 1 # maybe
 - id: 15
   slug: chiri
   name: 月川ちり
   cast_name: 大森日雅
+  charm_id: 1
 - id: 16
   slug: pepper
   name: 太陽ペッパー
   cast_name: 山下七海
+  charm_id: 4
 - id: 17
   slug: ajimi
   name: 黄木あじみ
   cast_name: 上田麗奈
+  charm_id: 2
 - id: 18
   slug: chanko
   name: 鍋島ちゃん子
   cast_name: 赤﨑千夏
+  charm_id: 3
 - id: 19
   slug: jury
   name: ジュリィ
   cast_name: 上田麗奈
+  charm_id: 6 # temporal
 - id: 20
   slug: janis
   name: ジャニス
   cast_name: 豊崎愛生
+  charm_id: 6 # temporal
 - id: 21
   slug: meganee
   name: 赤井めが姉ぇ
   cast_name: 伊藤かな恵
+  charm_id: ~
 - id: 22
   slug: kanon
   name: かのん
   cast_name: 田中美海
+  charm_id: 1
 - id: 23
   slug: pinon
   name: ぴのん
   cast_name: 田中美海
+  charm_id: 2
 - id: 24
   slug: junon
   name: じゅのん
   cast_name: 田中美海
+  charm_id: 3
 - id: 25
   slug: eiko
   name: 栄子
   cast_name: ブリドカットセーラ恵美
+  charm_id: 1 # maybe
 - id: 26
   slug: love
   name: 栃乙女愛
   cast_name: 森下由樹子
+  charm_id: 3 # maye
 - id: 27
   slug: cupicon
   name: 白井ななみ
   cast_name: 南條愛乃
+  charm_id: 2 # maybe
 - id: 28
   slug: lantern
   name: 蘭たん
   cast_name: いのくちゆか
+  charm_id: ~
 - id: 29
   slug: iroha
   name: 香川いろは
   cast_name: 大久保瑠美
+  charm_id: ~

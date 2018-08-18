@@ -1,54 +1,72 @@
 - id: 1
   name: TwinkleRibbon
   kana: トゥインクルリボン
+  charm_id: 1
 - id: 2
   name: CandyAlamode
   kana: キャンディアラモード
+  charm_id: 2
 - id: 3
   name: HolicTrick
   kana: ホリックトリック
+  charm_id: 3
 - id: 4
   name: BabyMonster
   kana: ベイビーモンスター
+  charm_id: 3
 - id: 5
   name: FortuneParty
   kana: フォーチュンパーティー
+  charm_id: 2
 - id: 6
   name: MarionetteMu
   kana: マリオネットミュー
+  charm_id: 1
 - id: 7
   name: DreamingGirl
   kana: ドリーミングガール
+  charm_id: 6
 - id: 8
   name: PrismStone
   kana: プリズムストーン
+  charm_id: 6
 - id: 9
   name: SilkyHeart
   kana: シルキーハート
+  charm_id: 1
 - id: 10
   name: HolicTrick classic
   kana: ホリックトリッククラシック
+  charm_id: 3
 - id: 11
   name: CocoFlower
   kana: ココフラワー
+  charm_id: 4
 - id: 12
   name: CandyAlamode more
   kana: キャンディアラモードモア
+  charm_id: 2
 - id: 13
   name: BrilliantPrince
   kana: ブリリアントプリンス
+  charm_id: 5
 - id: 14
   name: RosetteJewel
   kana: ロゼットジュエル
+  charm_id: 6 # temporal
 - id: 15
   name: LOVEDEVI
   kana: ラブデビ
+  charm_id: 3
 - id: 16
   name: DearCrown
   kana: ディアクラウン
+  charm_id: 5
 - id: 17
   name: SunnyZoo
   kana: サニーズー
+  charm_id: 4
 - id: 18
   name: TwinkleRibbon Sweet
   kana: トゥインクルリボンスウィート
+  charm_id: 1
