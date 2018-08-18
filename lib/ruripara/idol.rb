@@ -4,7 +4,7 @@ module Pripara
 
     ATTR_KEYS.each do |key|
       define_method key do
-        @attributes[key.to_s]
+        @attributes[key.to_sym]
       end
     end
 
