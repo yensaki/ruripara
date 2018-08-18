@@ -12,7 +12,7 @@ module Pripara
 
     class << self
       def all
-        config.map { |attributes| new(attributes) }
+        @all ||= config.map { |attributes| new(attributes) }
       end
 
       def find_by(attributes)
