@@ -1,5 +1,7 @@
 module Pripara
   class Base
+    attr_reader :attributes
+
     def initialize(attributes)
       @attributes = attributes.map { |k, v| [k.to_sym, v] }.to_h
     end
@@ -21,9 +23,11 @@ module Pripara
       private
 
       def config
-        return @config if @config
-        config_file = File.join(File.dirname(__FILE__), "../../config/", config_file_name)
-        @config = YAML.load_file(config_file)
+        @config ||= YAML.load_file(config_file_path)
+      end
+
+      def config_file_path
+        File.join(File.dirname(__FILE__), "../../config/", config_file_name)
       end
 
       def config_file_name
