@@ -29,7 +29,16 @@ Or install it yourself as:
 require 'ruripara'
 girl = Pripara::Idol.find_by(name: '南みれぃ')
 girl.cast_name
-# => '芹澤優' 
+# => '芹澤優'
+girl.chram.name
+# => ポップ
+
+brands = Pripara::Brand.all
+brand = brands.first
+brand.name
+# => Twinkle Ribbon
+brand.charm.name
+# => ラブリー
 ```
 
 ## Contributing
